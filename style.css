@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Fira+Code:wght@300;400&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700;800&family=Jomhuria&family=Josefin+Sans:wght@300&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Libre+Franklin:ital,wght@0,600;0,700;1,300&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@400;700&family=Overpass:ital,wght@0,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,700;0,800;1,500&family=Poppins:wght@500;700;800;900&family=Raleway:ital,wght@0,400;1,700&family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&family=Six+Caps&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+   background-color:  hsl(216, 12%, 8%);
+ 
+}
+.rate-box{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   margin-top: 20%;
+}
+.container{
+    padding: 30px;
+    width: 400px;
+    height: 360px;
+    background-color: hsl(213, 19%, 18%);
+    margin: auto;
+    border-radius: 20px;  
+}
+.star-logo{
+    border-radius: 50%;
+    background-color: hsl(206, 7%, 20%);
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+}
+h1{
+    color: white;
+}
+p{
+    color: grey;
+    width: 350px;
+    line-height: 25px;
+}
+.numbers{
+    width: 350px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+.number{
+    background-color: hsl(206, 7%, 20%);
+    color: hsl(217, 12%, 63%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.btn{
+    font-size: 18PX;
+    color: white;
+    letter-spacing: 1px;
+    width: 370px;
+    height: 50px;
+    background: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    margin-top: 30px;
+    justify-items: center;
+    font-family: 'Overpass', sans-serif; 
+}
+.thankyou-box{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   margin-top: 20%;
+   display: none;
+}
+.thankyou-logo{
+    align-items: center;
+    justify-content: center;
+    margin: 20px 100px;
+}
+.thankyou-text{
+    text-align: center;
+}
+.thankyou-btn{
+    color: hsl(25, 97%, 53%);
+    width: 200px;
+    font-size: 12px;
+    height: 40px;
+    margin-left: 90px;
+    background-color: hsl(206, 7%, 20%);
+    border: transparent;
+    margin-top: -20px;
+}
+.thankyou-p{
+    text-align: center;
+    width: 360px;
+    color: hsl(217, 12%, 63%);
+}
